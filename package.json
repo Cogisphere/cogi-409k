@@ -1,0 +1,25 @@
+{
+  "name": "cogi-409k",
+  "version": "1.0.0",
+  "description": "This repository contains description of logic for 9th edition of Warhammer 40k game system\r for cogisphere application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cogisphere/cogi-409k.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cogisphere/cogi-409k/issues"
+  },
+  "homepage": "https://github.com/Cogisphere/cogi-409k#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  }
+}
