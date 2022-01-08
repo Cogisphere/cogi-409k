@@ -1,9 +1,9 @@
-import calculatePowerLevels from "../../src/Actions/calculatePowerLevels";
-import Detachment from "../../src/Structures/Detachment";
-import Keywords from "../../src/Structures/Keywords";
-import List from "../../src/Structures/List";
-import Unit from "../../src/Structures/Unit";
-import UnitDataSlate from "../../src/Structures/UnitDataSlate";
+import calculatePowerLevels from "../../lib/Actions/calculatePowerLevels";
+import Detachment from "../../lib/Structures/Detachment";
+import Keywords from "../../lib/Structures/Keywords";
+import List from "../../lib/Structures/List";
+import Unit from "../../lib/Structures/Unit";
+import UnitDataSlate from "../../lib/Structures/UnitDataSlate";
 
 describe('calculatePowerLevels', () => {
 

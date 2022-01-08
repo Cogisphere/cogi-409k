@@ -2,9 +2,12 @@
   "name": "cogi-409k",
   "version": "1.0.0",
   "description": "This repository contains description of logic for 9th edition of Warhammer 40k game system\r for cogisphere application.",
-  "main": "index.js",
+  "main": "build/cogi-409k.js",
+  "types": "build/cogi-409k.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
